@@ -103,7 +103,7 @@ main {
 
 	#masthead-name {
 		color: $dark-gray;
-		font-size: 48px;
+		font-size: 44px;
 		text-decoration: none;
 	}
 
@@ -113,6 +113,9 @@ main {
 		li {
 			a {
 				color: $dark-gray;
+			}
+			a:hover {
+				background: inherit;
 			}
 		}
 
@@ -133,10 +136,20 @@ main {
 
 #resume {
 	max-width: 800px;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 1em;
 
 	.experience-tile {
+		width: 100%;
+		margin: 30px 0 30px 0;
+
 		strong {
 			font-weight: bold;
+		}
+
+		ul {
+			padding-left: 20px;
 		}
 	}
 }
