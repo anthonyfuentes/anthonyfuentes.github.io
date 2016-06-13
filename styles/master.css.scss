@@ -5,6 +5,7 @@
 	universal
 	page-container
 	css-header
+	resume
 */
 
 /* mixins, variables*/
@@ -22,8 +23,8 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
+small, strike, sub, sup, tt, var,
+b, u, i, center, strong,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
@@ -44,9 +45,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	font-family: 'Arimo', sans-serif;
 	line-height: 1;
 }
-ol, ul {
+ol {
 	list-style: none;
 }
 blockquote, q {
@@ -69,18 +71,30 @@ body {
 	justify-content:center;
 }
 
+main {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 /* page-container */
 
 #page-container {
-	width: 100%;
+	width: 90%;
 	max-width: 960px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 /* css-header */
 
 #masthead {
+	width: 100%;
 	margin: 30px 0 0 0;
 	display: flex;
+	flex-wrap: wrap;
 
 	h1 {
 		margin-top: auto;
@@ -101,9 +115,28 @@ body {
 				color: $dark-gray;
 			}
 		}
+
+		ul {
+			li:last-child a {
+				padding-right: 0;
+			}
+		}
 	}
 }
 
-hr {
+#masthead-hr {
+	width: 100%;
 	border-top: 1px solid #8c8b8b;
+}
+
+/* resume */
+
+#resume {
+	max-width: 800px;
+
+	.experience-tile {
+		strong {
+			font-weight: bold;
+		}
+	}
 }
