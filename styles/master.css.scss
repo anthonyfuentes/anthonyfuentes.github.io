@@ -6,6 +6,7 @@
 	page-container
 	css-header
 	resume
+	media queries
 */
 
 /* mixins, variables*/
@@ -95,33 +96,36 @@ main {
 	margin: 30px 0 0 0;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 
 	h1 {
 		margin-top: auto;
 		padding: 0 0 5px 0;
+		display: flex;
+		justify-content: center;
 	}
 
 	#masthead-name {
 		color: $dark-gray;
 		font-size: 44px;
 		text-decoration: none;
+		text-align: center;
 	}
 
 	#masthead-nav {
-		margin: auto 0 0 auto;
+		margin-top: auto;
 
+		ul {
+			li:last-child a {
+				padding-right: 0;
+			}
+		}
 		li {
 			a {
 				color: $dark-gray;
 			}
 			a:hover {
 				background: inherit;
-			}
-		}
-
-		ul {
-			li:last-child a {
-				padding-right: 0;
 			}
 		}
 	}
@@ -150,6 +154,21 @@ main {
 
 		ul {
 			padding-left: 20px;
+		}
+	}
+}
+
+/* media queries */
+@media screen and (max-width: 924px){
+	#masthead {
+		justify-content: center;
+
+		#masthead-name {
+			max-width: 100%;
+		}
+
+		#masthead-nav {
+			max-width: 100%;
 		}
 	}
 }
