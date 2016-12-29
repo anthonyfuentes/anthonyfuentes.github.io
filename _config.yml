@@ -1,0 +1,22 @@
+
+# Site settings
+# Available in templates as {{ site.attribute }}
+title: Anthony Fuentes, Full Stack Developer
+email: anthony.c.fuentes@gmail.com
+brand: Anthony Fuentes
+headline: Full Stack Developer, Team Player, Tabletop Gamer
+description: > # this means to ignore newlines until "baseurl:"
+  New Site
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "anthonyfuentes.us" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Contacts
+email: anthony.c.fuentes@gmail.com
+phone: 619-817-7280
+
+# Tracking
+googleAnalitycsID: UA-83933844-1
+
