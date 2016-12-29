@@ -1,11 +1,24 @@
-// Block: container-instagram
 
 .container-instagram {
   margin-top: $spacer;
 }
 
+.row-top {
+  margin-bottom: 15px;
+}
+
 .list-row {
   padding: 20px 0 0 0;
+}
+
+.h-inline {
+  display: inline-block;
+}
+
+.link-group {
+  a {
+    color: #2a2a2a;
+  }
 }
 
 .img-fill {
@@ -15,3 +28,4 @@
 .light-shadow {
   box-shadow: 0 0 5px #888;
 }
+
