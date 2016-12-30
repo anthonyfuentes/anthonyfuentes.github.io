@@ -15,7 +15,7 @@ $(document).ready(function () {
         var scrollElement = $(this).find('.nav-link').data('link'),
             scrollPosition = $(scrollElement).offset().top - 100;
 
-        dom.body.animate({
+        $('body,html').animate({
             scrollTop: scrollPosition
         }, 500);
     });
@@ -34,7 +34,7 @@ $(document).ready(function () {
     // Scroll to top on the logo click
 
     dom.navBarLogo.click(function () {
-        dom.body.animate({
+        $('body, html').animate({
             scrollTop: 0
         }, 300);
     });
