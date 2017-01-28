@@ -1,3 +1,6 @@
 
 # Ignore SASS cache
 .sass-cache
+
+# Ignore log files
+*.log
