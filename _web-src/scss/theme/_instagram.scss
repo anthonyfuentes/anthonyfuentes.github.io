@@ -17,6 +17,11 @@
   }
 }
 
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 .img-fill {
   max-width: 100%;
 }
