@@ -1,7 +1,7 @@
+# Professional Site - Deployed
 
-# anthonyfuentes.us
-http://anthonyfuentes.us
+Welcome to the GitHub pages repo for my professional site.
 
-## Base Design
-[Jekyll Instagram Portfolio
-Theme](https://github.com/portfolio-central/jekyll-instagram-portfolio-theme)
+If you're interested in seeing the source code, it's [here](https://github.com/anthonyfuentes/professional-site).
+
+The live site is [here](https://anthonyfuentes.us).
