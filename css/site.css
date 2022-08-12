@@ -31,3 +31,15 @@ h1 {
 .icon-link-row td:nth-child(2) {
   padding: 0 0 0 .75em;
 }
+
+@media only screen and (max-device-width: 430px) {
+  .index {
+    width: 22em;
+  }
+}
+
+@media only screen and (max-device-width: 320px) {
+  .index {
+    width: 18em;
+  }
+}
