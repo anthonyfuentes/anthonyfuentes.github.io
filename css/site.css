@@ -38,6 +38,12 @@ h1 {
   }
 }
 
+@media only screen and (max-device-width: 360px) {
+  .index {
+    width: 20em;
+  }
+}
+
 @media only screen and (max-device-width: 320px) {
   .index {
     width: 18em;
