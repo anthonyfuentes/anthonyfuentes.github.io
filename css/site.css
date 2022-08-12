@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.index {
+  width: 30vw;
+  margin: 0 auto 0 auto;
+  max-width: 1063px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+}
+
+.welcome h1 {
+  margin: 1.25em 0 .75em 0;
+}
+
+.welcome img {
+  height: 95%;
+  max-height: 3em;
+  width: auto;
+  margin: 0 0 0 .75em;
+}
+
+.icon-link-row td:nth-child(2) {
+  padding: 0 0 0 .75em;
+}
