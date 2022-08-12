@@ -1,11 +1,11 @@
 body {
   margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .index {
-  width: 30vw;
-  margin: 0 auto 0 auto;
-  max-width: 1063px;
+  width: 26em;
 }
 
 h1 {
